@@ -36,6 +36,7 @@ public class Ella{
 		System.out.println("Hello I'm Ella! and you are?");
 		Scanner in = new Scanner(System.in);
 		String namer = in.nextLine();
+		Ella(namer);
 		populate();
 		feelings();
 		
